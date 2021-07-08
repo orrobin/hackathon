@@ -1,0 +1,54 @@
+﻿<link href="~/css/site.css" rel="stylesheet" />
+<script src="~/js/site.js"></script>
+
+
+<div class="siginup">
+    <form>
+        <h2>טופס הרשמה</h2>
+        <div>שם פרטי:</div>
+        <input type="text" placeholder="שם פרטי" />
+        <div>שם משפחה:</div>
+        <input type="text" placeholder="שם משפחה" />
+        <div>אי-מייל:</div>
+        <input type="email" placeholder="אי-מייל" />
+        <div>סיסמא:</div>
+        <input type="password" placeholder="סיסמא" />
+        <div>אישור סיסמא:</div>
+        <input type="password" placeholder="אישור סיסמא" />
+        <br />
+        <div>סוג חייל:</div>
+        <select>
+            <option value="job">ג'וב</option>
+            <option value="supporter">תומך לחימה</option>
+            <option value="combat">לוחם</option>
+        </select>
+        <br />
+        <div>סוג ת"ש:</div>
+        <select>
+            <option value="none">אין</option>
+            <option value="2">ת"ש 2</option>
+            <option value="3">ת"ש 3</option>
+            <option value="4">ת"ש 4</option>
+            <option value="5">ת"ש 5</option>
+            <option value="6">ת"ש 6</option>
+        </select>
+        <br />
+        <input type="checkbox" />
+        חייל בודד
+        <div>סכום כסף כרגע:</div>
+        <input type="number" placeholder="כסף בחשבון כרגע" />
+        <div>תוספת שכר מהצבא:</div>
+        <input type="number" placeholder="תוספת שכר" />
+        <div>הכנסות נוספות מחוץ לצבא:</div>
+        <input type="number" placeholder="הכנסות נוספות" />
+        <div>מטרת חיסכון:</div>
+        <input type="text" placeholder="מטרה" />
+        <div>סכום כסף לחיסכון:</div>
+        <input type="number" placeholder="סכום כסף ליסכון" />
+        <div>כמות ימים בבית:</div>
+        <input type="range" min="0" max="31"id="myRange">
+        <p>ימי בית: <span id="demo"></span></p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">הירשם</button>
+    </form>
+</div>
+
